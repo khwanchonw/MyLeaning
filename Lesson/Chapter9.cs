@@ -10,7 +10,11 @@ namespace Console1.Lesson
 {
     public class Restful
     {
-        static readonly string urlServer = "https://api.publicapis.org/entries";
+        //more request check https://sqa.stackexchange.com/questions/47097/free-sites-for-testing-post-rest-api-calls
+        //static readonly string urlServer = "https://api.publicapis.org/entries"; //For get
+        static readonly string urlServer = "https://httpbin.org/get";//For get
+        //static readonly string urlServer = "https://httpbin.org/post";//For post
+        
         //static readonly string urlServer = "https://catfact.ninja/fact";
         static readonly string resTxt = "E:/Temp/TestApiRes.txt";
                
