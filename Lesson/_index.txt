@@ -1,0 +1,25 @@
+﻿1. Introduction, Intall and Configuration for Visual Studio.
+2. Basic Variable, Operator, Logic.
+3. Conditions.
+4. Loop for while do.
+5. ArrayList and annotation delegate.
+6. Date, Time, String, casting and using system.io to manage files.
+7. Object Oriented Programming (OOP).
+8. data model and exeception.
+==================================
+9. Basic of api Restful get post put delete response code.
+10. Introduction of swagger, file upload.
+11. Authentication with JWT and enable CORS.
+12. Database Programming with ADO.NET.
+13. EF and APIs.
+14. Dapper ORM.
+
+15. Integate with React.
+16. .net MVC Basic and MVVM Concept.
+17. Http Client.
+18. Introducing to .Net Blazor for Develop Web Application.
+19. Blazor web server and WebAssembly Workshop.
+20. Buid and deploy project to pm2 and docker, run test on ubuntu linux.
+
+
+
