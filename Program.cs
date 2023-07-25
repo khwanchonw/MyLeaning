@@ -65,9 +65,54 @@ using System.Security.Cryptography.X509Certificates;
 
 
 //Chapter 9: Basic of api Restful get post put delete response code
-await Restful.Get();
+//await Restful.Get();
 //await Restful.Post();
 
+//Test array of box
+static void Array()
+{
+
+    Console.Write("\nEnter Esc to Exit : ");
+    
+    
+    if (Console.ReadKey().Key == ConsoleKey.Escape)
+    {
+        Console.WriteLine("\nExit Program..");
+    }
+    else
+    {
+    Console.Write("\nEnter number of Column : ");
+    int colume = Convert.ToInt16(Console.ReadLine());
+    Console.Write("Enter number of Row : ");
+    int row = Convert.ToInt16(Console.ReadLine());
+    Console.Write("Enter Column's Spacing : ");
+    int space = Convert.ToInt16(Console.ReadLine());
+
+    Console.WriteLine("\nColume = {0} Row = {1} Spacing = {2}", colume, row,space);
+
+    string s = string.Concat(Enumerable.Repeat(" ",space));
+
+    for (int ii = 1; ii<= row;ii++ )
+    {
+        for (int i = 1;i <= colume;i++)
+        {
+            Console.Write("[ ]" + s);
+        }
+        Console.WriteLine();
+    }
+
+    Array();
+    }
+}
+
+try
+{
+Array();
+}
+catch (Exception e) 
+{ 
+    Console.WriteLine(e.Message.ToString());
+}
 
 
 
